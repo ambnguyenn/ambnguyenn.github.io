@@ -1,0 +1,38 @@
+body {
+  background-image: url(img/cat-background.jpg);
+  background-size: cover;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 80px;
+  font-family: 'Gamja Flower', cursive;
+}
+
+.heading h2 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Gamja Flower', cursive;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  font-family: 'Gamja Flower', cursive;
+}
+
+#cat-image {
+  display: flex;
+  margin: auto;
+  width: auto;
+  height: 400px;
+  overflow: hidden;
+}
+
+.heading {
+  margin-top: 50px;
+}

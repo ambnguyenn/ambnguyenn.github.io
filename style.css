@@ -1,0 +1,147 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body, html {
+    height: 100%;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/hero-image.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
+}
+
+#profile-pic {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+}
+
+.name {
+  font-size: 50px;
+  padding: 20px;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.navbar-icon {
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#mission-image {
+  width: 70%;
+}
+
+#mission-section {
+  height: auto;
+  width: cover;
+  background-color: rgb(160, 130, 130);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.subtitle {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+#skills-section {
+  height: auto;
+  width: cover;
+  background-color: rgb(160, 130, 130);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.skill-cards {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.skill-icon {
+  font-size: 80px;
+}
+
+#contact-section {
+  height: auto;
+  width: cover;
+  background-color: rgba(169, 137, 137, 0.521);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-card {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-icon {
+  font-size: 80px;
+}
+
+.contact-icon {
+  font-size: 80px; /* Initial icon size */
+  color: #000; /* Initial icon color */
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: white; 
+  font-size: 90px;
+}
+
+.screenshot {
+  border: 10px rgb(255, 255, 255, 0.5) solid;
+  border-radius: 7px;
+  width: 260px;
+  height: 230px; /* Set a fixed height */
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+#projects-section {
+  height: auto;
+  width: cover;
+  background-color: rgba(169, 137, 137, 0.521);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.screenshot {
+  transition: transform 0.3s ease-in-out;
+}
+
+.screenshot:hover {
+  transform: scale(1.1);
+}
+
